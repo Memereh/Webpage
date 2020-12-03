@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navegacion__logo {
+    width: 60px;
+    height: 38px;
+    display: inline-block;
+}
+
+.navegacion__barra {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bbb;
+}
+
+.navegacion_contbuttons {
+    position: relative;
+    display: inline;
+}
+
+.navegacion_buttons {
+    color: white;
+    display: inline-block;
+    vertical-align: 10px;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navegacion_buttons:hover {
+    background-color: #ddd;
+}
