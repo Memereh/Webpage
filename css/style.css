@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://media.discordapp.net/attachments/693707925952266308/784267107793371146/polygonal-white-texture-background-with-arrows_23-2148427610.png);
 }
 
 a {
@@ -9,33 +16,53 @@ a {
 }
 
 .navegacion__logo {
-    width: 60px;
-    height: 38px;
-    display: inline-block;
+    font-family: 'Audiowide', cursive;
+    color: black;
+    font-size: 30px;
+    display: block;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .navegacion__barra {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #bbb;
+    background-color: rgba(0, 0, 0,0.7);
 }
 
 .navegacion_contbuttons {
     position: relative;
-    display: inline;
+    display: block;
+    text-align: center;
 }
 
 .navegacion_buttons {
-    color: white;
+    color: black;
     display: inline-block;
-    vertical-align: 10px;
-    text-align: end;
-    padding: 14px 16px;
+    text-align: center;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: none;
     position: relative;
 }
 
 .navegacion_buttons:hover {
     background-color: #ddd;
+}
+
+.parrafo {
+    display: flex;
+    text-align: center;
+}
+
+.parrafo__video {
+    width: 100%;
+    height: 470px;
+    padding: 30px;
+}
+
+.separador {
+    background-color: rgba(0, 0, 0, 0.7);
 }
