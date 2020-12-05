@@ -1,44 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-image: url(https://media.discordapp.net/attachments/693707925952266308/784267107793371146/polygonal-white-texture-background-with-arrows_23-2148427610.png);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
     text-decoration: none;
 }
 
+body {
+    background-color: rgb(238, 232, 232);
+}
+
+.navegacion {
+    position: fixed;
+    width: 100%;
+}
+
 .navegacion__logo {
-    font-family: 'Audiowide', cursive;
-    color: black;
-    font-size: 30px;
-    display: block;
+    display: inline-block;
     padding-top: 10px;
-    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    opacity: 1;
 }
 
 .navegacion__barra {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0,0.7);
+    background-color: rgba(101, 42, 150,.7);
 }
 
 .navegacion_contbuttons {
     position: relative;
-    display: block;
+    display: inline-block;
     text-align: center;
+    float: right;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+
 }
 
 .navegacion_buttons {
-    color: black;
+    color: white;
+    font-size: 0.9375em;
     display: inline-block;
     text-align: center;
     width: 150px;
@@ -49,18 +60,14 @@ a {
 }
 
 .navegacion_buttons:hover {
-    background-color: #ddd;
+    display: inline-block;
+    border-bottom: 2px solid rgb(131, 13, 155);
 }
 
-.parrafo {
-    display: flex;
-    text-align: center;
-}
-
-.parrafo__video {
-    width: 100%;
-    height: 470px;
-    padding: 30px;
+.parrafo__texto1 {
+    padding-top: 120px;
+    padding-right: 600px;
+    padding-left: 600px;
 }
 
 .separador {
