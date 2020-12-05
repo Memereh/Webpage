@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -12,13 +13,17 @@ a {
     text-decoration: none;
 }
 
-body {
-    background-color: rgb(238, 232, 232);
+.separador {
+    width: 100%;
+    height: 150px;
+    background-color: #444;
+    border: none;
 }
 
 .navegacion {
     position: fixed;
     width: 100%;
+    z-index: 900;
 }
 
 .navegacion__logo {
@@ -33,7 +38,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(101, 42, 150,.7);
+    background-color: rgba(78, 183, 245,.7);
 }
 
 .navegacion_contbuttons {
@@ -69,6 +74,55 @@ body {
     padding-left: 600px;
 }
 
-.separador {
-    background-color: rgba(0, 0, 0, 0.7);
+.fondo {
+    background-image: url(../img/fondo/background1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+}
+
+.fondo__texto1 {
+    position: absolute;
+    display: block;
+    padding-top: 400px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+
+.nosotros {
+    background-image: url(https://cdn.hipwallpaper.com/i/11/62/4zlOkK.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+}
+
+.nosotros__titulo {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding-top: 20px;
+}
+
+.nosotros__parrafo {
+    text-align: center;
+    font-size: 26px;
+    padding: 100px 300px;
+}
+
+.nosotros__imagenes {
+    text-align: center;
+}
+
+.nosotros__imagen {
+    width: 200px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 30px;
 }
