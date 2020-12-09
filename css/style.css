@@ -100,7 +100,7 @@ a {
 }
 
 .nosotros {
-    background-image: url(https://cdn.hipwallpaper.com/i/11/62/4zlOkK.jpg);
+    background-image: url(../img/fondo/background3.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -133,7 +133,7 @@ a {
 }
 
 .proyectos {
-    background-image: url(../img/fondo/background4.jpg);
+    background-image: url(../img/fondo/background2.png);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
@@ -141,6 +141,7 @@ a {
 }
 
 .proyectos__titulo {
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
     font-size: 50px;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
@@ -151,10 +152,13 @@ a {
     text-align: center;
     font-size: 26px;
     padding: 100px 300px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .proyectos__imagenes {
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 300px;
 }
 
 .proyectos__imagen {
@@ -231,9 +235,9 @@ a {
     display:inline-block;
     width: 150px;
     padding:12px;
-    background: #a5f059;
+    background: #71e92c;
     text-decoration: none;
-    color: #343759;
+    color: #353535;
     border-radius: 100px;
     text-align: center;
     font-size: 14px;
@@ -241,9 +245,13 @@ a {
     margin: auto;
 }
 
+.boton:hover {
+    background: #57b322;
+}
+
 .tabla:hover, .hover{
-    background: #343759;
-    color: #f1f1f2;
+    background: #83CCF8;
+    color: #555555;
     transition: .5s all;
     transform: scale(1.1);
     cursor: pointer;
@@ -274,3 +282,4 @@ a {
         padding: 20px;
     }
 }
+
